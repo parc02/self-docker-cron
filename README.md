@@ -20,8 +20,8 @@ EX) Node.js, Apache Tomcat, JBoss etc..
 ![image](https://github.com/parc02/git_java/assets/148880521/0a84961e-d260-427e-b00e-f085d568f58c)
 
 <details> <summary>REF</summary>
-https://en.wikipedia.org/wiki/Web_browser
-https://www.nginx.com/resources/glossary/application-server-vs-web-server/
+https://en.wikipedia.org/wiki/Web_browser <br>
+https://www.nginx.com/resources/glossary/application-server-vs-web-server/ <br>
 https://blog.naver.com/gi_balja/223028077537
 </details>
 
