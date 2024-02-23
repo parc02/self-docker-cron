@@ -6,7 +6,7 @@ Run apt install -y git
 RUN apt install cron
 RUN rm -rf /var/www/html
 
-RUN git clone https://github.com/parc02/self-docker-cron.git
+RUN git clone https://github.com/parc02/self-docker-cron.git /var/www/html/
 
 COPY ex-pull-cronjob /etc/cron.d
 
