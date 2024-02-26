@@ -33,10 +33,10 @@ https://blog.naver.com/gi_balja/223028077537
 
 - <b> Pods <br></b>
   - Pods are the smallest deployable units of computing that you can create and manage in Kubernetes
-  - A pod is a group of one or more containers, with shared storage and network resources, and a specification for how to run the containers. <br>
+  - A pod is a group of one or more containers, with shared storage and network resources, and a specification for how to run the containers. 
 - Pods in kubernetes cluster are used in two main ways:
   - pods that run a single container <br>
  it's the most common Kubernetes use case; in this case, you can think of a pod as a wrapper aroung a single container; kubernetes manages Pods rather than managing the containers directly
     
-  - pods that run multiple containers that need to work together
+  - pods that run multiple containers that need to work together<br>
  A pod can encapsulate an application composed of multiple co-located containers that are tightly coupled and need to share resources. These co-located containers form a single conhesive unit.
