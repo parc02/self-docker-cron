@@ -40,3 +40,5 @@ https://blog.naver.com/gi_balja/223028077537
     
   - pods that run multiple containers that need to work together: <br>
  A pod can encapsulate an application composed of multiple co-located containers that are tightly coupled and need to share resources. These co-located containers form a single conhesive unit.
+
+[ref](https://kubernetes.io/docs/concepts/workloads/pods/#workload-resources-for-managing-pods)
