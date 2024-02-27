@@ -42,8 +42,45 @@ https://blog.naver.com/gi_balja/223028077537
  A pod can encapsulate an application composed of multiple co-located containers that are tightly coupled and need to share resources. These co-located containers form a single conhesive unit.
 
 [ref](https://kubernetes.io/docs/concepts/workloads/pods/#workload-resources-for-managing-pods)
+## 4. Performance Testing Scenario
+Performance testing is simply testing how many users that the web-server(API) can afford.
+other than that it can also be used to check whether which model shows a better performance.
 
-## 4. jenkins
+### Performance Testing Indicators
+- Throughput
+-> TPS(Transaction Per Second), RPS(Request per seconds) <br>
+<b>These indicators represent how much process they can handle in a second so the higher it shows the better performance it is</b>
+- Latency<br>
+<b>These latency means delayed time which means the time system spent from receiving request form the client to sending the request -> It is better when it is lower </b>
+
+```
+TPS -> Transaction Per Second
+TPS = Active User / Response Time
+```
+![image](https://github.com/parc02/self-docker-cron/assets/148880521/d0ea924f-7607-4c4b-9c45-adbee00bf4ff)
+From the picture above, the total TPS and Latency would be
+
+|Throughput|Latency|
+|---|---|
+|500TPS|350ms|
+
+ Latency <b>sums up</b> all section but Throughput is the <b>min</b> value of all the section
+Thus if you want to improve TPS it is crucial to find the critical path. <br>
+and if you want to improve latency, you should minimize each latency.<br>
+
+- User-TPS Graph
+  
+![image](https://github.com/parc02/self-docker-cron/assets/148880521/b79bfe13-7465-4971-b30e-6ceb9a6be6cb)
+
+as you see the graph above, At
+<b> saturation Point </b> TPS no longer when User increases which means <br>
+TPS =  Active User / Response Time -> Active User = Response time
+<br>
+-So it means that response time is increasing -> which is the imoportant point to define performance 'load point'
+
+
+REF: https://ch4njun.tistory.com/266
+## 5. jenkins
 Jenkins offers a simple way to set up a CI or CD environment for almost any combination of languages and source code repositories using pipelines, as well as automating other routine development tools than you can easily build yourself
 ### <b>- CI <br></b>
 <b>Continuous Integration</b> refers to the practice of automatically and frequently integrating code changes into a shared source code repository.  
