@@ -1,5 +1,5 @@
 # self-docker-cron
-This repo is for concreting the concept of the things I've been studying including nginx, docker, crontab, ngrinder(performace testing),kubernetes and jenkins
+This repo is for concreting the concept of the things I've been studying including nginx, docker, crontab, ngrinder(performance testing),kubernetes and jenkins
 
 
 ## 1. Web Server Architecture
