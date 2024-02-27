@@ -42,3 +42,8 @@ https://blog.naver.com/gi_balja/223028077537
  A pod can encapsulate an application composed of multiple co-located containers that are tightly coupled and need to share resources. These co-located containers form a single conhesive unit.
 
 [ref](https://kubernetes.io/docs/concepts/workloads/pods/#workload-resources-for-managing-pods)
+
+## 4. jenkins
+### <b>- CI <br></b>
+
+### <b>- CD <br></b>
