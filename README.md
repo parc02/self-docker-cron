@@ -44,6 +44,8 @@ https://blog.naver.com/gi_balja/223028077537
 [ref](https://kubernetes.io/docs/concepts/workloads/pods/#workload-resources-for-managing-pods)
 
 ## 4. jenkins
+Jenkins offers a simple way to set up a CI or CD environment for almost any combination of languages and source code repositories using pipelines, as well as automating other routine development tools than you can easily build yourself
 ### <b>- CI <br></b>
-
+<b>Continuous Integration</b> refers to the practice of automatically and frequently integrating code changes into a shared source code repository.  
 ### <b>- CD <br></b>
+CD stands for Continuous Delivery and/or Continuous Deployment
